@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5df;
+  }
+
+.box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30%;
+    width: 50%;
+}
+
+label{
+font-weight: 600;
+}
+
+input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-size: medium;
+}
+
+
+  .task {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .sunday, .monday, .tuesday, .wednesday, .thursday, .friday, .saturday {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+  }
+  .sunday { background-color: #f9f9f9; }
+  .monday { background-color: #e6f7ff; }
+  .tuesday { background-color: #ffe6e6; }
+  .wednesday { background-color: #e6ffe6; }
+  .thursday { background-color: #fff2cc; }
+  .friday { background-color: #f2f2f2; }
+  .saturday { background-color: #f2f2f2; }
